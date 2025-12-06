@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Anu | Creative Web Designer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+</head>
+<body>
+  <!-- Header / Navbar -->
+  <header class="header">
+    <div class="container nav-container">
+      <div class="logo">
+        <span class="logo-mark">A</span>
+        <span class="logo-text">Anupama</span>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-links">
+          <li><a href="#hero" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container hero-container">
+      <div class="hero-text">
+        <p class="hero-badge">Front-End Web Designer</p>
+        <h1>
+          Hi, I'm <span class="highlight">Anupama</span> <br />
+          I design clean & modern websites.
+        </h1>
+        <p class="hero-subtitle">
+          I love turning simple ideas into beautiful, responsive and user-friendly
+          web experiences using <strong>HTML, CSS & JavaScript</strong>.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn primary-btn">View My Work</a>
+          <a href="#contact" class="btn ghost-btn">Hire Me</a>
+        </div>
+
+        <div class="hero-meta">
+          <div>
+            <span class="meta-label">Experience</span>
+            <span class="meta-value">Fresher, but passionate</span>
+          </div>
+          <div>
+            <span class="meta-label">Location</span>
+            <span class="meta-value">India (Remote Friendly)</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="hero-avatar">
+          <div class="avatar-circle">A</div>
+        </div>
+        <div class="hero-card-body">
+          <h2>Available for Internship</h2>
+          <p>Looking for a front-end / web design role where I can grow and contribute.</p>
+          <ul class="hero-card-list">
+            <li>Pixel-perfect UI design</li>
+            <li>Responsive layouts</li>
+            <li>Clean, readable code</li>
+          </ul>
+          <button class="btn full-width-btn" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">
+            Let’s Work Together
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container section-container">
+      <div class="section-header">
+        <p class="section-tag">About Me</p>
+        <h2>Who is Anu?</h2>
+        <p class="section-subtitle">
+          I'm a web designer focused on building simple, clean and modern interfaces 
+          that are easy to use and visually appealing.
+        </p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card">
+          <h3>My Journey</h3>
+          <p>
+            I have completed my graduation and a web designing course, and now I'm
+            actively looking for opportunities to start my career as a
+            <strong>Front-End Web Designer</strong>. I enjoy learning new things and 
+            improving my designs with every project.
+          </p>
+        </div>
+        <div class="about-card">
+          <h3>What I Focus On</h3>
+          <ul class="about-list">
+            <li>Clean, minimal and modern UI</li>
+            <li>Mobile-first, responsive layouts</li>
+            <li>User-friendly navigation & structure</li>
+            <li>Consistent typography & color palette</li>
+          </ul>
+        </div>
+        <div class="about-card">
+          <h3>My Goals</h3>
+          <p>
+            I want to join a team where I can learn from seniors, work on real projects
+            and deliver meaningful web experiences. This assignment is a small example
+            of how I structure and code a website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section section-alt" id="skills">
+    <div class="container section-container">
+      <div class="section-header">
+        <p class="section-tag">Skills</p>
+        <h2>What I Use To Build Websites</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h3>HTML5</h3>
+          <p>Semantic structure, clean code and accessible markup.</p>
+          <div class="skill-bar">
+            <div class="skill-fill" data-skill="85"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>CSS3</h3>
+          <p>Flexbox, Grid, animations and responsive design.</p>
+          <div class="skill-bar">
+            <div class="skill-fill" data-skill="80"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>JavaScript</h3>
+          <p>Interactive UI, DOM manipulation and basic logic.</p>
+          <div class="skill-bar">
+            <div class="skill-fill" data-skill="40"></div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3>UI & UX Basics</h3>
+          <p>Design that feels natural, simple and easy to use.</p>
+          <div class="skill-bar">
+            <div class="skill-fill" data-skill="75"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- Contact Section -->
+  <section class="section section-alt" id="contact">
+    <div class="container section-container">
+      <div class="section-header">
+        <p class="section-tag">Contact</p>
+        <h2>Let’s Work Together</h2>
+        <p class="section-subtitle">
+          I’m ready for interviews, assignments and real-world projects. You can 
+          use this form to send a sample message (front-end only).
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <form class="contact-form" id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name*</label>
+            <input type="text" id="name" placeholder="Enter your name" required />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email*</label>
+            <input type="email" id="email" placeholder="Enter your email" required />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message*</label>
+            <textarea id="message" rows="4" placeholder="Write your message" required></textarea>
+          </div>
+
+          <button type="submit" class="btn primary-btn full-width-btn">
+            Send Message
+          </button>
+
+          <p class="form-status" id="formStatus"></p>
+        </form>
+
+        <div class="contact-info">
+          <h3>Why should you hire me?</h3>
+          <ul class="about-list">
+            <li>Quick learner and hardworking</li>
+            <li>Comfortable with feedback and improvements</li>
+            <li>Interested in long-term growth with the team</li>
+          </ul>
+          <p class="contact-note">
+            This is a demo assignment website created with pure HTML, CSS and JavaScript
+            to showcase my front-end skills.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <p>© <span id="year"></span> Anu – Creative Web Designer. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
